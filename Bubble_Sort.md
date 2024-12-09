@@ -1,4 +1,5 @@
-## algorithm
+## pseudo-code
+```pseudo
 // Sorts a given array using bubble sort  
 // Input: An array A[0..n-1] of orderable  
 // elements  
@@ -8,6 +9,7 @@ for i<- 0 to n - 2 do
 for j <-0 to n - 2 - i do  
 if A[j+1] < A[j]  
 swap A[j] and A[j+1]
+```
 
 ## code
 ```cpp
